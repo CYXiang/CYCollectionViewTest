@@ -7,7 +7,7 @@
 //
 
 #import "CYXNewfeatureViewController.h"
-
+#import "CYXNewfeatureCell.h"
 @interface CYXNewfeatureViewController ()
 
 @end
@@ -21,7 +21,7 @@ static NSString * const reuseIdentifier = @"Cell";
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
 
     // 定义大小
-    layout.itemSize = [UIScreen mainScreen].bounds.size;
+    layout.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height - 50);
     // 设置垂直间距
     layout.minimumLineSpacing = 0;
     // 设置滚动方向（默认垂直滚动）
@@ -37,8 +37,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
-    
+    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXNewfeatureCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     // 开启分页
     self.collectionView.pagingEnabled = YES;
     // 隐藏水平滚动条
@@ -63,9 +62,9 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    
-    cell.backgroundColor = [UIColor blueColor];
+    CYXNewfeatureCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"new_feature_%zd",indexPath.item+1]];
+//    cell.backgroundColor = [UIColor blueColor];
     
     return cell;
 }

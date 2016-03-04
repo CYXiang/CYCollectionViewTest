@@ -17,6 +17,8 @@
 		4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */; };
 		4993B17A1C89888500EAF9F7 /* CYXWaterflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */; };
 		4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */; };
+		4993B1831C89901000EAF9F7 /* CYXNewfeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1811C89901000EAF9F7 /* CYXNewfeatureCell.m */; };
+		4993B1841C89901000EAF9F7 /* CYXNewfeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1821C89901000EAF9F7 /* CYXNewfeatureCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterflowController.m; sourceTree = "<group>"; };
 		4993B17D1C898A1E00EAF9F7 /* CYXNewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureViewController.h; sourceTree = "<group>"; };
 		4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureViewController.m; sourceTree = "<group>"; };
+		4993B1801C89901000EAF9F7 /* CYXNewfeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureCell.h; sourceTree = "<group>"; };
+		4993B1811C89901000EAF9F7 /* CYXNewfeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureCell.m; sourceTree = "<group>"; };
+		4993B1821C89901000EAF9F7 /* CYXNewfeatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNewfeatureCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +178,9 @@
 			children = (
 				4993B17D1C898A1E00EAF9F7 /* CYXNewfeatureViewController.h */,
 				4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */,
+				4993B1801C89901000EAF9F7 /* CYXNewfeatureCell.h */,
+				4993B1811C89901000EAF9F7 /* CYXNewfeatureCell.m */,
+				4993B1821C89901000EAF9F7 /* CYXNewfeatureCell.xib */,
 			);
 			name = "新手引导页制作";
 			sourceTree = "<group>";
@@ -292,6 +300,7 @@
 			files = (
 				4993B14D1C897D5800EAF9F7 /* LaunchScreen.storyboard in Resources */,
 				4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */,
+				4993B1841C89901000EAF9F7 /* CYXNewfeatureCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4993B17A1C89888500EAF9F7 /* CYXWaterflowController.m in Sources */,
+				4993B1831C89901000EAF9F7 /* CYXNewfeatureCell.m in Sources */,
 				4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */,
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
