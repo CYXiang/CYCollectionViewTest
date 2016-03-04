@@ -21,9 +21,10 @@ static NSString * const reuseIdentifier = @"Cell";
     UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
 
     // 定义大小
-    layout.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width,[UIScreen mainScreen].bounds.size.height - 50);
+    layout.itemSize = CGSizeMake([UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height + 20);//[UIScreen mainScreen].bounds.size;
     // 设置垂直间距
     layout.minimumLineSpacing = 0;
+    layout.minimumInteritemSpacing = 0;
     // 设置滚动方向（默认垂直滚动）
     layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
@@ -33,9 +34,10 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
-    
+    self.navigationController.navigationBarHidden = YES;
     self.title = @"导航页界面";
     // Register cell classes
     [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXNewfeatureCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
@@ -67,6 +69,8 @@ static NSString * const reuseIdentifier = @"Cell";
     cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"new_feature_%zd",indexPath.item+1]];
 //    cell.backgroundColor = [UIColor blueColor];
     
+    // 告诉cell是否是当前cell
+    [cell setIndexPath:indexPath count:4];
     return cell;
 }
 

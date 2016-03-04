@@ -35,9 +35,9 @@ static NSString * const reuseIdentifier = @"Cell";
     // 设置最小行间距
     layout.minimumLineSpacing = 2;
     // 设置垂直间距
-    layout.minimumInteritemSpacing = 0;
+    layout.minimumInteritemSpacing = 2;
     // 设置滚动方向（默认垂直滚动）
-    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+//    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     
     return [self initWithCollectionViewLayout:layout];
 }
@@ -63,7 +63,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of items
-    return 20;
+    return 40;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
