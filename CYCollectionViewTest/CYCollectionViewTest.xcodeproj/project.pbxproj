@@ -15,6 +15,8 @@
 		4993B14D1C897D5800EAF9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993B14B1C897D5800EAF9F7 /* LaunchScreen.storyboard */; };
 		4993B1581C897D5800EAF9F7 /* CYCollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1571C897D5800EAF9F7 /* CYCollectionViewTestTests.m */; };
 		4993B1631C897D5800EAF9F7 /* CYCollectionViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1621C897D5800EAF9F7 /* CYCollectionViewTestUITests.m */; };
+		4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */; };
+		4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		4993B15E1C897D5800EAF9F7 /* CYCollectionViewTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYCollectionViewTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993B1621C897D5800EAF9F7 /* CYCollectionViewTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYCollectionViewTestUITests.m; sourceTree = "<group>"; };
 		4993B1641C897D5800EAF9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4993B1701C897EBA00EAF9F7 /* CYXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMainViewController.h; sourceTree = "<group>"; };
+		4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainViewController.m; sourceTree = "<group>"; };
+		4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCollectionViewController.h; sourceTree = "<group>"; };
+		4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +115,11 @@
 				4993B1491C897D5800EAF9F7 /* Assets.xcassets */,
 				4993B14B1C897D5800EAF9F7 /* LaunchScreen.storyboard */,
 				4993B14E1C897D5800EAF9F7 /* Info.plist */,
+				4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */,
+				4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */,
 				4993B13D1C897D5800EAF9F7 /* Supporting Files */,
+				4993B1701C897EBA00EAF9F7 /* CYXMainViewController.h */,
+				4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */,
 			);
 			path = CYCollectionViewTest;
 			sourceTree = "<group>";
@@ -275,7 +285,9 @@
 			files = (
 				4993B1451C897D5800EAF9F7 /* ViewController.m in Sources */,
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
+				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
 				4993B13F1C897D5800EAF9F7 /* main.m in Sources */,
+				4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
