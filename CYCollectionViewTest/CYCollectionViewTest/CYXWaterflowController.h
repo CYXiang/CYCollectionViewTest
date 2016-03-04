@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CYXWaterflowController.h
 //  CYCollectionViewTest
 //
 //  Created by apple开发 on 16/3/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CYXWaterflowController : UIViewController
 
 @end
-

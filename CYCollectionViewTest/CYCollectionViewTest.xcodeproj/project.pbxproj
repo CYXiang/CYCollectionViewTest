@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		4993B13F1C897D5800EAF9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B13E1C897D5800EAF9F7 /* main.m */; };
 		4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1411C897D5800EAF9F7 /* AppDelegate.m */; };
-		4993B1451C897D5800EAF9F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1441C897D5800EAF9F7 /* ViewController.m */; };
-		4993B1481C897D5800EAF9F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1461C897D5800EAF9F7 /* Main.storyboard */; };
 		4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1491C897D5800EAF9F7 /* Assets.xcassets */; };
 		4993B14D1C897D5800EAF9F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993B14B1C897D5800EAF9F7 /* LaunchScreen.storyboard */; };
 		4993B1581C897D5800EAF9F7 /* CYCollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1571C897D5800EAF9F7 /* CYCollectionViewTestTests.m */; };
 		4993B1631C897D5800EAF9F7 /* CYCollectionViewTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1621C897D5800EAF9F7 /* CYCollectionViewTestUITests.m */; };
 		4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */; };
 		4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */; };
+		4993B17A1C89888500EAF9F7 /* CYXWaterflowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */; };
+		4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,6 @@
 		4993B13E1C897D5800EAF9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4993B1401C897D5800EAF9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4993B1411C897D5800EAF9F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4993B1431C897D5800EAF9F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4993B1441C897D5800EAF9F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4993B1471C897D5800EAF9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4993B1491C897D5800EAF9F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4993B14C1C897D5800EAF9F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4993B14E1C897D5800EAF9F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +54,10 @@
 		4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainViewController.m; sourceTree = "<group>"; };
 		4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCollectionViewController.h; sourceTree = "<group>"; };
 		4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCollectionViewController.m; sourceTree = "<group>"; };
+		4993B1781C89888500EAF9F7 /* CYXWaterflowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXWaterflowController.h; sourceTree = "<group>"; };
+		4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterflowController.m; sourceTree = "<group>"; };
+		4993B17D1C898A1E00EAF9F7 /* CYXNewfeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureViewController.h; sourceTree = "<group>"; };
+		4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,19 +108,18 @@
 		4993B13C1C897D5800EAF9F7 /* CYCollectionViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				4993B1771C89882500EAF9F7 /* 流水布局普通使用 */,
+				4993B17B1C89895B00EAF9F7 /* 新手引导页制作 */,
+				4993B1761C89880D00EAF9F7 /* 瀑布流布局 */,
+				4993B17C1C89897300EAF9F7 /* 自定义布局 */,
 				4993B1401C897D5800EAF9F7 /* AppDelegate.h */,
 				4993B1411C897D5800EAF9F7 /* AppDelegate.m */,
-				4993B1431C897D5800EAF9F7 /* ViewController.h */,
-				4993B1441C897D5800EAF9F7 /* ViewController.m */,
-				4993B1461C897D5800EAF9F7 /* Main.storyboard */,
+				4993B1701C897EBA00EAF9F7 /* CYXMainViewController.h */,
+				4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */,
 				4993B1491C897D5800EAF9F7 /* Assets.xcassets */,
 				4993B14B1C897D5800EAF9F7 /* LaunchScreen.storyboard */,
 				4993B14E1C897D5800EAF9F7 /* Info.plist */,
-				4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */,
-				4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */,
 				4993B13D1C897D5800EAF9F7 /* Supporting Files */,
-				4993B1701C897EBA00EAF9F7 /* CYXMainViewController.h */,
-				4993B1711C897EBA00EAF9F7 /* CYXMainViewController.m */,
 			);
 			path = CYCollectionViewTest;
 			sourceTree = "<group>";
@@ -148,6 +148,40 @@
 				4993B1641C897D5800EAF9F7 /* Info.plist */,
 			);
 			path = CYCollectionViewTestUITests;
+			sourceTree = "<group>";
+		};
+		4993B1761C89880D00EAF9F7 /* 瀑布流布局 */ = {
+			isa = PBXGroup;
+			children = (
+				4993B1781C89888500EAF9F7 /* CYXWaterflowController.h */,
+				4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */,
+			);
+			name = "瀑布流布局";
+			sourceTree = "<group>";
+		};
+		4993B1771C89882500EAF9F7 /* 流水布局普通使用 */ = {
+			isa = PBXGroup;
+			children = (
+				4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */,
+				4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */,
+			);
+			name = "流水布局普通使用";
+			sourceTree = "<group>";
+		};
+		4993B17B1C89895B00EAF9F7 /* 新手引导页制作 */ = {
+			isa = PBXGroup;
+			children = (
+				4993B17D1C898A1E00EAF9F7 /* CYXNewfeatureViewController.h */,
+				4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */,
+			);
+			name = "新手引导页制作";
+			sourceTree = "<group>";
+		};
+		4993B17C1C89897300EAF9F7 /* 自定义布局 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "自定义布局";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +292,6 @@
 			files = (
 				4993B14D1C897D5800EAF9F7 /* LaunchScreen.storyboard in Resources */,
 				4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */,
-				4993B1481C897D5800EAF9F7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,7 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4993B1451C897D5800EAF9F7 /* ViewController.m in Sources */,
+				4993B17A1C89888500EAF9F7 /* CYXWaterflowController.m in Sources */,
+				4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */,
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
 				4993B13F1C897D5800EAF9F7 /* main.m in Sources */,
@@ -323,14 +357,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4993B1461C897D5800EAF9F7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4993B1471C897D5800EAF9F7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4993B14B1C897D5800EAF9F7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

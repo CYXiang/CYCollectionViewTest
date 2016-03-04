@@ -8,6 +8,8 @@
 
 #import "CYXMainViewController.h"
 #import "CYXNormalCollectionViewController.h"
+#import "CYXWaterflowController.h"
+#import "CYXNewfeatureViewController.h"
 
 @interface CYXMainViewController ()
 
@@ -66,10 +68,12 @@ static NSString * const ID = @"cell";
             
             break;
         } case 1:{
-            
+            [self.navigationController pushViewController:[[CYXNewfeatureViewController alloc]init] animated:YES];
+
             break;
         } case 2:{
-            
+            [self.navigationController pushViewController:[[CYXWaterflowController alloc]init] animated:YES];
+
             break;
         } case 3:{
             
