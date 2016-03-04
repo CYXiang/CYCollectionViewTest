@@ -36,6 +36,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // Uncomment the following line to preserve selection between presentations
     // self.clearsSelectionOnViewWillAppear = NO;
     
+    self.title = @"导航页界面";
     // Register cell classes
     [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXNewfeatureCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     // 开启分页

@@ -45,7 +45,7 @@ static NSString * const reuseIdentifier = @"Cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
+    self.title = @"普通用法";
     self.collectionView.backgroundColor = [UIColor whiteColor];
     // Register cell classes
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];

@@ -32,6 +32,7 @@ static NSString * const ID = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"CYXDemo";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:ID];    
 
 }
