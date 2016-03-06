@@ -19,6 +19,7 @@
 		4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B17E1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m */; };
 		4993B1831C89901000EAF9F7 /* CYXNewfeatureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1811C89901000EAF9F7 /* CYXNewfeatureCell.m */; };
 		4993B1841C89901000EAF9F7 /* CYXNewfeatureCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1821C89901000EAF9F7 /* CYXNewfeatureCell.xib */; };
+		8F9F28251C8B4E6000A6BA83 /* CYXLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F9F28241C8B4E6000A6BA83 /* CYXLayoutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		4993B1801C89901000EAF9F7 /* CYXNewfeatureCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNewfeatureCell.h; sourceTree = "<group>"; };
 		4993B1811C89901000EAF9F7 /* CYXNewfeatureCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNewfeatureCell.m; sourceTree = "<group>"; };
 		4993B1821C89901000EAF9F7 /* CYXNewfeatureCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNewfeatureCell.xib; sourceTree = "<group>"; };
+		8F9F28231C8B4E6000A6BA83 /* CYXLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXLayoutViewController.h; sourceTree = "<group>"; };
+		8F9F28241C8B4E6000A6BA83 /* CYXLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXLayoutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +191,8 @@
 		4993B17C1C89897300EAF9F7 /* 自定义布局 */ = {
 			isa = PBXGroup;
 			children = (
+				8F9F28231C8B4E6000A6BA83 /* CYXLayoutViewController.h */,
+				8F9F28241C8B4E6000A6BA83 /* CYXLayoutViewController.m */,
 			);
 			name = "自定义布局";
 			sourceTree = "<group>";
@@ -330,6 +335,7 @@
 				4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */,
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
+				8F9F28251C8B4E6000A6BA83 /* CYXLayoutViewController.m in Sources */,
 				4993B13F1C897D5800EAF9F7 /* main.m in Sources */,
 				4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */,
 			);
@@ -547,6 +553,7 @@
 				4993B1691C897D5900EAF9F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4993B16A1C897D5900EAF9F7 /* Build configuration list for PBXNativeTarget "CYCollectionViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +562,7 @@
 				4993B16C1C897D5900EAF9F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4993B16D1C897D5900EAF9F7 /* Build configuration list for PBXNativeTarget "CYCollectionViewTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,6 +571,7 @@
 				4993B16F1C897D5900EAF9F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

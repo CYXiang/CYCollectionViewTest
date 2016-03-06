@@ -45,10 +45,9 @@
     self.imageView.image = image;
 }
 
-- (void)setIndexPath:(NSIndexPath *)indexPath count:(int)count{
+- (void)setIndexPath:(NSIndexPath *)indexPath count:(NSInteger)count{
 
     if (indexPath.row == count - 1) { // 判断下是否是最后一个cell
-        
         // 显示体验按钮
         self.startButton.hidden = NO;
         

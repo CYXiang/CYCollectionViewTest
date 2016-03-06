@@ -10,6 +10,7 @@
 #import "CYXNormalCollectionViewController.h"
 #import "CYXWaterflowController.h"
 #import "CYXNewfeatureViewController.h"
+#import "CYXLayoutViewController.h"
 
 @interface CYXMainViewController ()
 
@@ -77,7 +78,8 @@ static NSString * const ID = @"cell";
 
             break;
         } case 3:{
-            
+            [self.navigationController pushViewController:[[CYXLayoutViewController alloc]init] animated:YES];
+
             break;
         }
             
