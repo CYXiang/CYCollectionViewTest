@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		490827641C8D293500CC3E0E /* CYXWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */; };
+		490827681C8D479100CC3E0E /* CYXNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 490827661C8D479100CC3E0E /* CYXNormalCell.m */; };
+		490827691C8D479100CC3E0E /* CYXNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490827671C8D479100CC3E0E /* CYXNormalCell.xib */; };
 		4993B13F1C897D5800EAF9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B13E1C897D5800EAF9F7 /* main.m */; };
 		4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1411C897D5800EAF9F7 /* AppDelegate.m */; };
 		4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1491C897D5800EAF9F7 /* Assets.xcassets */; };
@@ -43,6 +45,9 @@
 /* Begin PBXFileReference section */
 		490827621C8D293500CC3E0E /* CYXWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXWaterFlowLayout.h; sourceTree = "<group>"; };
 		490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterFlowLayout.m; sourceTree = "<group>"; };
+		490827651C8D479100CC3E0E /* CYXNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCell.h; sourceTree = "<group>"; };
+		490827661C8D479100CC3E0E /* CYXNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCell.m; sourceTree = "<group>"; };
+		490827671C8D479100CC3E0E /* CYXNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNormalCell.xib; sourceTree = "<group>"; };
 		4993B13A1C897D5800EAF9F7 /* CYCollectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCollectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993B13E1C897D5800EAF9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4993B1401C897D5800EAF9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -177,6 +182,9 @@
 			children = (
 				4993B1731C8980C700EAF9F7 /* CYXNormalCollectionViewController.h */,
 				4993B1741C8980C700EAF9F7 /* CYXNormalCollectionViewController.m */,
+				490827651C8D479100CC3E0E /* CYXNormalCell.h */,
+				490827661C8D479100CC3E0E /* CYXNormalCell.m */,
+				490827671C8D479100CC3E0E /* CYXNormalCell.xib */,
 			);
 			name = "流水布局普通使用";
 			sourceTree = "<group>";
@@ -311,6 +319,7 @@
 				4993B14D1C897D5800EAF9F7 /* LaunchScreen.storyboard in Resources */,
 				4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */,
 				4993B1841C89901000EAF9F7 /* CYXNewfeatureCell.xib in Resources */,
+				490827691C8D479100CC3E0E /* CYXNormalCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +351,7 @@
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
 				8F9F28251C8B4E6000A6BA83 /* CYXLayoutViewController.m in Sources */,
+				490827681C8D479100CC3E0E /* CYXNormalCell.m in Sources */,
 				4993B13F1C897D5800EAF9F7 /* main.m in Sources */,
 				4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */,
 			);

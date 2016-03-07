@@ -7,6 +7,7 @@
 //
 
 #import "CYXNormalCollectionViewController.h"
+#import "CYXNormalCell.h"
 
 @interface CYXNormalCollectionViewController ()
 
@@ -37,7 +38,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // 设置垂直间距
     layout.minimumInteritemSpacing = 0;
     // 设置滚动方向（默认垂直滚动）
-    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+//    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     // 设置边缘的间距，默认是{0，0，0，0}
     layout.sectionInset = UIEdgeInsetsMake(20, 20, 20, 20);
     
@@ -51,7 +52,9 @@ static NSString * const reuseIdentifier = @"Cell";
     self.collectionView.backgroundColor = [UIColor whiteColor];
     self.collectionView.frame = self.view.bounds;
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+//    [self.collectionView registerClass:[CYXNormalCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    // 通过xib注册
+    [self.collectionView registerNib:[UINib nibWithNibName:NSStringFromClass([CYXNormalCell class]) bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     
 }
 
@@ -70,8 +73,8 @@ static NSString * const reuseIdentifier = @"Cell";
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    cell.backgroundColor = [UIColor blueColor];
+    CYXNormalCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+//    cell.backgroundColor = [UIColor blueColor];
     
     return cell;
 }
