@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490827641C8D293500CC3E0E /* CYXWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */; };
 		4993B13F1C897D5800EAF9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B13E1C897D5800EAF9F7 /* main.m */; };
 		4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1411C897D5800EAF9F7 /* AppDelegate.m */; };
 		4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1491C897D5800EAF9F7 /* Assets.xcassets */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		490827621C8D293500CC3E0E /* CYXWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXWaterFlowLayout.h; sourceTree = "<group>"; };
+		490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXWaterFlowLayout.m; sourceTree = "<group>"; };
 		4993B13A1C897D5800EAF9F7 /* CYCollectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCollectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993B13E1C897D5800EAF9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4993B1401C897D5800EAF9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 			children = (
 				4993B1781C89888500EAF9F7 /* CYXWaterflowController.h */,
 				4993B1791C89888500EAF9F7 /* CYXWaterflowController.m */,
+				490827621C8D293500CC3E0E /* CYXWaterFlowLayout.h */,
+				490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */,
 			);
 			name = "瀑布流布局";
 			sourceTree = "<group>";
@@ -333,6 +338,7 @@
 				4993B17A1C89888500EAF9F7 /* CYXWaterflowController.m in Sources */,
 				4993B1831C89901000EAF9F7 /* CYXNewfeatureCell.m in Sources */,
 				4993B17F1C898A1E00EAF9F7 /* CYXNewfeatureViewController.m in Sources */,
+				490827641C8D293500CC3E0E /* CYXWaterFlowLayout.m in Sources */,
 				4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */,
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
 				8F9F28251C8B4E6000A6BA83 /* CYXLayoutViewController.m in Sources */,

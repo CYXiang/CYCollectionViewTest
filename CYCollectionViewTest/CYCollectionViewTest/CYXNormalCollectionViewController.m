@@ -33,11 +33,13 @@ static NSString * const reuseIdentifier = @"Cell";
     // 定义大小
     layout.itemSize = CGSizeMake(100, 100);
     // 设置最小行间距
-    layout.minimumLineSpacing = 2;
+    layout.minimumLineSpacing = 20;
     // 设置垂直间距
-    layout.minimumInteritemSpacing = 2;
+    layout.minimumInteritemSpacing = 0;
     // 设置滚动方向（默认垂直滚动）
-//    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    // 设置边缘的间距，默认是{0，0，0，0}
+    layout.sectionInset = UIEdgeInsetsMake(20, 20, 20, 20);
     
     return [self initWithCollectionViewLayout:layout];
 }
@@ -47,6 +49,7 @@ static NSString * const reuseIdentifier = @"Cell";
     
     self.title = @"普通用法";
     self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.collectionView.frame = self.view.bounds;
     // Register cell classes
     [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
     
@@ -78,5 +81,7 @@ static NSString * const reuseIdentifier = @"Cell";
 {
     NSLog(@"------%zd", indexPath.item);
 }
+
+
 
 @end
