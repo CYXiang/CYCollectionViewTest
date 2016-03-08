@@ -9,12 +9,6 @@
 #import "CYXPhotoViewLayout.h"
 
 @implementation CYXPhotoViewLayout
-{
-    CGFloat previousOffset;
-    NSIndexPath *mainIndexPath;
-    NSIndexPath *movingInIndexPath;
-    CGFloat difference;
-}
 
 - (instancetype)init{
 

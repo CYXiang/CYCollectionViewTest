@@ -24,14 +24,14 @@ static NSString * const ID = @"cell";
     
     CYXPhotoViewLayout *layout = [[CYXPhotoViewLayout alloc]init];
 //    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
-    self.automaticallyAdjustsScrollViewInsets = NO;
-    layout.itemSize = CGSizeMake(200, 300);
+//    self.automaticallyAdjustsScrollViewInsets = NO;
+    layout.itemSize = CGSizeMake(230, 350);
     
     // 创建collection 设置尺寸
     CGFloat collectionW = self.view.frame.size.width;
-    CGFloat collectionH = 400;
+    CGFloat collectionH = self.view.frame.size.height;
     CGFloat collectionX = 0;
-    CGFloat collectionY = self.view.frame.size.height - collectionH;
+    CGFloat collectionY = 0;
 
     CGRect frame = CGRectMake(collectionX, collectionY, collectionW, collectionH);
     UICollectionView *collectionView = [[UICollectionView alloc]initWithFrame:frame collectionViewLayout:layout];
