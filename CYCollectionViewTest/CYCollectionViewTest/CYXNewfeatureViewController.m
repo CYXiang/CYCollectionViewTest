@@ -66,7 +66,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     CYXNewfeatureCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
-    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"new_feature_%zd",indexPath.item+1]];
+    cell.image = [UIImage imageNamed:[NSString stringWithFormat:@"%zd",indexPath.item+9]];
 //    cell.backgroundColor = [UIColor blueColor];
     
     // 告诉cell是否是当前cell

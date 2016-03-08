@@ -13,7 +13,7 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="323" height="434"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="new_feature_4" translatesAutoresizingMaskIntoConstraints="NO" id="P0Z-y9-5rR">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="11" translatesAutoresizingMaskIntoConstraints="NO" id="P0Z-y9-5rR">
                         <rect key="frame" x="0.0" y="0.0" width="323" height="434"/>
                         <animations/>
                     </imageView>
@@ -59,7 +59,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="new_feature_4" width="320" height="480"/>
+        <image name="11" width="320" height="480"/>
         <image name="start-nor" width="111" height="36"/>
     </resources>
 </document>

@@ -10,6 +10,8 @@
 		490827641C8D293500CC3E0E /* CYXWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 490827631C8D293500CC3E0E /* CYXWaterFlowLayout.m */; };
 		490827681C8D479100CC3E0E /* CYXNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 490827661C8D479100CC3E0E /* CYXNormalCell.m */; };
 		490827691C8D479100CC3E0E /* CYXNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490827671C8D479100CC3E0E /* CYXNormalCell.xib */; };
+		4908276C1C8EA23E00CC3E0E /* CYXPhotoViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908276B1C8EA23E00CC3E0E /* CYXPhotoViewLayout.m */; };
+		4908276F1C8EABF700CC3E0E /* CYXPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4908276E1C8EABF700CC3E0E /* CYXPhotoCell.m */; };
 		4993B13F1C897D5800EAF9F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B13E1C897D5800EAF9F7 /* main.m */; };
 		4993B1421C897D5800EAF9F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B1411C897D5800EAF9F7 /* AppDelegate.m */; };
 		4993B14A1C897D5800EAF9F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4993B1491C897D5800EAF9F7 /* Assets.xcassets */; };
@@ -48,6 +50,10 @@
 		490827651C8D479100CC3E0E /* CYXNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXNormalCell.h; sourceTree = "<group>"; };
 		490827661C8D479100CC3E0E /* CYXNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXNormalCell.m; sourceTree = "<group>"; };
 		490827671C8D479100CC3E0E /* CYXNormalCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CYXNormalCell.xib; sourceTree = "<group>"; };
+		4908276A1C8EA23E00CC3E0E /* CYXPhotoViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPhotoViewLayout.h; sourceTree = "<group>"; };
+		4908276B1C8EA23E00CC3E0E /* CYXPhotoViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPhotoViewLayout.m; sourceTree = "<group>"; };
+		4908276D1C8EABF700CC3E0E /* CYXPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXPhotoCell.h; sourceTree = "<group>"; };
+		4908276E1C8EABF700CC3E0E /* CYXPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXPhotoCell.m; sourceTree = "<group>"; };
 		4993B13A1C897D5800EAF9F7 /* CYCollectionViewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYCollectionViewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993B13E1C897D5800EAF9F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4993B1401C897D5800EAF9F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -206,6 +212,10 @@
 			children = (
 				8F9F28231C8B4E6000A6BA83 /* CYXLayoutViewController.h */,
 				8F9F28241C8B4E6000A6BA83 /* CYXLayoutViewController.m */,
+				4908276A1C8EA23E00CC3E0E /* CYXPhotoViewLayout.h */,
+				4908276B1C8EA23E00CC3E0E /* CYXPhotoViewLayout.m */,
+				4908276D1C8EABF700CC3E0E /* CYXPhotoCell.h */,
+				4908276E1C8EABF700CC3E0E /* CYXPhotoCell.m */,
 			);
 			name = "自定义布局";
 			sourceTree = "<group>";
@@ -352,8 +362,10 @@
 				4993B1721C897EBA00EAF9F7 /* CYXMainViewController.m in Sources */,
 				8F9F28251C8B4E6000A6BA83 /* CYXLayoutViewController.m in Sources */,
 				490827681C8D479100CC3E0E /* CYXNormalCell.m in Sources */,
+				4908276C1C8EA23E00CC3E0E /* CYXPhotoViewLayout.m in Sources */,
 				4993B13F1C897D5800EAF9F7 /* main.m in Sources */,
 				4993B1751C8980C700EAF9F7 /* CYXNormalCollectionViewController.m in Sources */,
+				4908276F1C8EABF700CC3E0E /* CYXPhotoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

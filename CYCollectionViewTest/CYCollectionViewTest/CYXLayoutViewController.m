@@ -7,21 +7,63 @@
 //
 
 #import "CYXLayoutViewController.h"
+#import "CYXPhotoViewLayout.h"
+#import "CYXPhotoCell.h"
 
-@interface CYXLayoutViewController ()
+@interface CYXLayoutViewController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 
 @end
 
 @implementation CYXLayoutViewController
 
+static NSString * const ID = @"cell";
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    CYXPhotoViewLayout *layout = [[CYXPhotoViewLayout alloc]init];
+//    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc]init];
+    self.automaticallyAdjustsScrollViewInsets = NO;
+    layout.itemSize = CGSizeMake(200, 300);
+    
+    // 创建collection 设置尺寸
+    CGFloat collectionW = self.view.frame.size.width;
+    CGFloat collectionH = 400;
+    CGFloat collectionX = 0;
+    CGFloat collectionY = self.view.frame.size.height - collectionH;
+
+    CGRect frame = CGRectMake(collectionX, collectionY, collectionW, collectionH);
+    UICollectionView *collectionView = [[UICollectionView alloc]initWithFrame:frame collectionViewLayout:layout];
+    collectionView.backgroundColor = [UIColor colorWithRed:68/255.0 green:83/255.0 blue:244/255.0 alpha:1.0]
+;
+    collectionView.dataSource = self;
+    collectionView.delegate = self;
+    [self.view addSubview:collectionView];
+
+    // 注册cell
+    [collectionView registerClass:[CYXPhotoCell class] forCellWithReuseIdentifier:ID];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark - <UICollectionViewDataSource>
+
+- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 12;
+}
+
+- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CYXPhotoCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
+    cell.backgroundColor = [UIColor whiteColor];
+    cell.imageName = [NSString stringWithFormat:@"%zd", indexPath.item + 1];
+    
+    return cell;
 }
 
 /*
